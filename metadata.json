@@ -2,7 +2,7 @@
 	"name": "meet-you-at-the-alter",
 	"widgetVersion":2,
 	"thumbnail":"thumbnail.png",
-	"screenshot": "marry-me-screenshot.jpg",
+	"screenshot": "meet-you-at-the-alter-screenshot.jpg",
 	"templateType":"standard",
 	"pageTypes":["home", "rsvp"],
 	"images": [
