@@ -4,15 +4,15 @@
 	"thumbnail":"thumbnail.png",
 	"screenshot": "marry-me-screenshot.jpg",
 	"templateType":"standard",
-  "pageTypes":["home", "rsvp"],
-  "images": [
+	"pageTypes":["home", "rsvp"],
+	"images": [
         "images/feature-t3.jpg",
         "images/kissing.png",
         "images/bride-with-flowers.jpg",
         "images/chapel-exit.jpg",
         "images/pair-of-rings.jpg"
     ],
-  "tags": {
+	"tags": {
 	    "en": ["wedvegas", "wedding", "white", "announcement", "event"]
 	  },
 	"colorSwatches":
@@ -151,12 +151,12 @@
             "letter-spacing": "inherit"
         }
     },
-  "styles": {
-      "colors": {
+	"styles": {
+		"colors": {
           "color__primary": "#ea7186",
           "color__secondary": "#c14256"
-      },
-      "site": {
+		},
+		"site": {
           "color__body--background": "#fff",
           "color__link--text": "@color__secondary",
           "color__companyname--text": "@font-swatch10-color",
@@ -166,10 +166,10 @@
           "font__companyname--font-weight" : "@font-swatch10-font-weight",
           "font__companyname--line-height" : "@font-swatch10-line-height",
           "font__companyname--letter-spacing" : "@font-swatch10-letter-spacing"
-      },
-      "typography": {
+		},
+		"typography": {
           "color__h1--text": "@color__primary",
-          "font__h1--font-family" : "",
+          "font__h1--font-family" : "@font-swatch1-font-family",
           "font__h1--font-size" : "4em",
           "font__h1--font-weight" : "400",
           "font__h1--line-height" : "1em",
@@ -202,8 +202,8 @@
           "font__p--font-weight" : "400",
           "font__p--line-height" : "1.35em",
           "font__p--letter-spacing" : "0.025em"
-      },
-      "button": {
+		},
+		"button": {
           "color__button--background": "@color__primary",
           "color__button--background--hover": "@color__secondary",
           "color__button--text": "#fff",
@@ -213,8 +213,8 @@
           "font__button--font-weight" : "400",
           "font__button--line-height" : "12px",
           "font__button--letter-spacing" : "inherit"
-      },
-      "navigation": {
+		},
+		"navigation": {
           "color__navigation--text": "#fff",
           "color__navigation--text--hover": "lighten(@color__primary, 10%)",
           "color__navigation--text--selected": "@color__primary",
@@ -225,8 +225,8 @@
           "font__navigation--font-weight" : "700",
           "font__navigation--line-height" : "28px",
           "font__navigation--letter-spacing" : "1.5px"
-      },
-      "feature": {
+		},
+		"feature": {
           "color__feature-headline--text": "#fff",
           "color__feature-strapline--text": "@color__primary",
           "color__feature-button--text": "@color__primary",
@@ -246,31 +246,31 @@
           "font__feature-strapline--font-weight" : "400",
           "font__feature-strapline--line-height" : "1.75em",
           "font__feature-strapline--letter-spacing" : "inherit"
-      },
-      "forms": {
+		},
+		"forms": {
           "color__form--background": "darken(@color__body--background, 3%)",
           "color__form-legend--text": "darken(@font-swatch5-color, 4%)",
           "color__form-legend--background": "darken(@color__body--background, 6%)",
           "color__form-label--text": "@font-swatch6-color"
-      },
-      "image": {
+		},
+		"image": {
           "color__image-title--text": "@color-swatch4",
           "color__image-description--text": "@color-swatch5"
-      },
-      "twitter": {
+		},
+		"twitter": {
           "color__twitter-item--background": "darken(@color__body--background, 2%)",
           "color__twitter-account-name--text": "@color__secondary",
           "color__twitter-tweet--text": "@font-swatch5-color"
-      },
-      "socialicons": {
-          "color__socialicons--icon": "#fff",
+		},
+		"socialicons": {
+		  "color__socialicons--icon": "#fff",
           "color__socialicons--icon--background": "@color__primary"
-      },
-      "blog": {
+		},
+		"blog": {
           "color__blogpostlist-title--text": "@color__secondary",
           "color__blogpost-title--text": "@font-swatch1-color"
-      },
-      "ecommerce": {
+		},
+		"ecommerce": {
           "color__ecomproductslist-label--text": "@color__form-label--text",
           "color__ecomproductslist-product-title--text": "@font-swatch3-color",
           "color__ecomproductslist-filters--background": "darken(@color__body--background, 3%)",
@@ -280,6 +280,6 @@
           "color__ecombasket-button--background": "@color__primary",
           "color__ecombasket-button--background--hover": "@color__secondary",
           "color__ecombasket-button--text": "@font-swatch7-color"
-      }
+		}
 	}
 }
