@@ -267,7 +267,7 @@ p {
 .imagewidget {
     .image-link {
         width: 100%;
-        text-align: center;
+        text-align: inherit;
     }
     .image-title {
         font-family:@font__feature-headline--font-family;
@@ -572,7 +572,9 @@ body { background-color:#f8f8f8; }
 	max-width:90%;
 	height:235px;
 	margin:0 auto; }
-	
+.feature__button { 
+	display: block;
+	margin: 3em auto 0em; }
 	
 
 .headline { 
@@ -599,7 +601,6 @@ body { background-color:#f8f8f8; }
 .strapline { 
 	display:inline-block;
 	border-top: 1px solid #fff;
-	padding:1em 6em; 
 	font-family: @font__feature-strapline--font-family;
 	font-size: @font__feature-strapline--font-size;
 	line-height: @font__feature-strapline--line-height;
@@ -627,7 +628,7 @@ body { background-color:#f8f8f8; }
 	bottom:0;
 	width:100%;
 	background-color:rgba(0,0,0,.45);
-	padding:2.5em 0; }
+	padding: 1.75em 0; }
 	.location .heading {
 		font-family: @font__feature-strapline--font-family;
 		font-size: @font__feature-strapline--font-size;
@@ -662,6 +663,7 @@ body { background-color:#f8f8f8; }
 		.location button:hover {
 			background-color:#bd4a5f;
 			color:#e97086; }
+	.location .in-editing { color: #fff !important; }
 			
 #page-zones__template-widgets__content-wherewhenheading span  {
 	font-family: 'Lato',sans-serif;
@@ -716,21 +718,22 @@ body { background-color:#f8f8f8; }
 	.feature__content-inner-wrap::before { top:0; }
 	.feature__hero .widget .feature__background-image { min-height:500px; }
 	#page-zones__template-widgets__content-wherewhenheading span,
-	.location button { text-align:center; margin:0 auto; }
+	.location button { text-align:center; }
 	#page-zones__template-widgets__content-mainheading  span { 
 		text-align:center;
 		font-size:1.25em;
 		margin-bottom:1em; }
 	.feature__content-wrap {
-    bottom: 10px; }
+		bottom: 10px; }
+	.feature__content-inner-wrap { height: inherit; }
 	.feature__headline { 
 		font-size: 1.75em;
 		top:70px; }
 	.strapline {    
 		font-size: .85em;
-    top:75px;
-    line-height:24px;
-    letter-spacing: 1px;
+		top:75px;
+		line-height:24px;
+		letter-spacing: 1px;
     }
   .feature__location .widget span {
   	font-size:0.9em; }
@@ -743,13 +746,16 @@ body { background-color:#f8f8f8; }
   		height: 25px;
   		bottom: -25px; }
 }
-
+@media only screen and (min-width: 87.5em) {
+	.headline,
+	.strapline { max-width: 68.75em; }
+}
 
 	
 	// -----------------------------
 // RSVP page
 // -----------------------------
-
+legend { display: none !important; }
 section.our-story { margin:2.5em auto; }
 
 #page-zones__template-widgets__content-rsvpcopy {
