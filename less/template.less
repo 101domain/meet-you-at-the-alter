@@ -124,8 +124,7 @@ body {
   	
   .bk-header nav > .navigation-list { 
   	position :relative; 
-  	display: block; 
-  	background-color: #fff; }
+  	display: block;  }
   .bk-header nav .navigation-list .navigation-item { 
   	padding:0;
   	border:0; }
@@ -137,9 +136,6 @@ body {
   	position: inherit;
   	border:none;
   	padding: 0; }
-  .bk-header nav .navigation-item .item-name,
-  .bk-header nav .navigation-list .navigation-item .item-name:hover { 
-  	color: #000; }
   .navigation-list.open .navigation-item .item-name {
   	padding: 1em 0;
   	text-align: center;
@@ -162,10 +158,15 @@ body {
 }
 
 @media only screen and (max-width: 30em) { 
+	.bk-header nav > .navigation-list { background-color: #fff; }
 	.bk-header nav .navigation-list .navigation-item { 
 		display: block;
 		text-align: center;
 	}
+	.bk-header nav .navigation-item .item-name,
+	.bk-header nav .navigation-list .navigation-item .item-name:hover { 
+		color: #000; }
+	
 }
 
 // Default Page
