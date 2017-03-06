@@ -60,9 +60,6 @@ body {
 @media only screen and (min-width: 47.5em) { 
 	.bk-header { min-height: 156px; }
 	.bk-header .logo-type span { font-size: 1.5em; }
-	.bk-header nav .navigation-list { margin: 0; padding-top: 10px; }
-	.bk-header nav .navigation-list { margin: 0; padding-top: 10px; }
-	.bk-header nav .navigation-list .navigation-item { padding: 0 .75em; }
 	.bk-header nav .navigation-item .item-name { 
 		font-family: @font__navigation--font-family; 
 		font-size: @font__navigation--font-size; 
@@ -155,6 +152,10 @@ body {
   .feature-header .feature__hero--content { height:45px; }
   .feature-header .feature__hero--content > .widget { display:none; }
   .feature-header .feature-header-nav { position:absolute; width:100%; }
+}
+@media only screen and (min-width: 30.0625em) { 
+	.bk-header nav .navigation-list { padding: 10px 0; }
+	.bk-header nav .navigation-list .navigation-item { padding: 0 .75em; }
 }
 
 @media only screen and (max-width: 30em) { 
